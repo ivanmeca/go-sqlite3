@@ -49,6 +49,11 @@ extern "C" {
 #ifndef SQLITE_EXTERN
 # define SQLITE_EXTERN extern
 #endif
+
+#ifndef SQLITE_ENABLE_GEOPOLY
+# define SQLITE_ENABLE_GEOPOLY extern
+#endif
+
 #ifndef SQLITE_API
 # define SQLITE_API
 #endif
